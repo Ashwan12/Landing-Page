@@ -1,0 +1,138 @@
+/* Reset + Font */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+}
+
+/* Top Bar */
+.top-bar {
+  background: #f56565;
+  color: #fff;
+  padding: 8px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.9rem;
+}
+.btn-small {
+  background: #fff;
+  color: #f56565;
+  padding: 5px 12px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* Main Header */
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background: #fff;
+}
+.logo {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #f56565;
+}
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+nav a:hover {
+  color: #f56565;
+}
+
+/* Hero Section */
+.hero {
+  background: url('https://source.unsplash.com/1600x500/?business,team') no-repeat center/cover;
+  padding: 100px 50px;
+  color: #fff;
+  text-align: center;
+  position: relative;
+}
+.hero-text {
+  background: rgba(0,0,0,0.5);
+  display: inline-block;
+  padding: 30px;
+  border-radius: 10px;
+}
+.hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+.hero p {
+  margin-bottom: 20px;
+}
+.btn, .btn-outline {
+  padding: 12px 30px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 600;
+  margin: 5px;
+}
+.btn {
+  background: #f56565;
+  color: #fff;
+}
+.btn-outline {
+  border: 2px solid #f56565;
+  color: #f56565;
+}
+
+/* Features */
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.feature-box {
+  flex: 1;
+  padding: 30px 20px;
+  color: #fff;
+}
+.orange { background: #f97316; }
+.pink { background: #ec4899; }
+.purple { background: #8b5cf6; }
+.feature-box h4 {
+  margin-bottom: 10px;
+}
+
+/* About */
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 30px;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.about-text {
+  flex: 1;
+  max-width: 500px;
+}
+.about-text h3 {
+  font-size: 2rem;
+  color: #f56565;
+  margin-bottom: 15px;
+}
+.about-text p {
+  margin-bottom: 20px;
+}
+.about img {
+  width: 300px;
+  border-radius: 12px;
+}
+
+/* Services */
+.services {
+  padding: 60px 20px;
+  text-align:
